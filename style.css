@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Page Banner */
+/* The container controls the structure */
+.hero-container {
+  position: relative; /* Keeps the text bound inside this container */
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden; 
+}
+
+/* Make the image fill the container nicely */
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Prevents image stretching */
+}
+
+/* Center the heading directly over the image */
+.hero-heading {
+  position: absolute; /* Frees text from normal document flow */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Perfectly offsets the text to the absolute center */
+  color: #ffffff; /* White text stands out best on images */
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds depth so text remains readable */
+  margin: 0;
+  text-align: center;
+  width: 90%; /* Prevents text from hitting the screen edge on mobile */
+}
+/* Navigation Bar */
+nav {
+    background-color: #68afdf;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-color: #05588f;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Content Sections */
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #68afdf;
+    color: white;
+}
